@@ -1,0 +1,170 @@
+syntax = "proto3";
+package ETHotfix;
+
+message C2G_Login // IRequest
+{
+	int32 RpcId = 90;
+	int32	Account	 = 1;	// 帐号
+	string	Password = 2;	// 密码
+}
+
+message G2C_Login // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	bool LoginFail = 2;
+}
+
+message C2G_Reg // IRequest
+{
+	int32 RpcId = 90;
+	int32	Account	 = 1;	// 帐号
+	string	Password = 2;	// 密码
+}
+
+message G2C_Reg // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	bool RegFail = 2;
+}
+
+message G2C_PlayerBackLogin // IMessage
+{
+	int32 RpcId = 90;
+	string NetMessage = 1;
+}
+
+message C2G_GetPlayerInfo // IRequest
+{
+	int32 RpcId = 90;
+	int32 Account = 1;
+}
+
+message G2C_GetPlayerInfo // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	int32 KillCount = 1;
+	int32 DeathCount = 2;
+	int32 MoneyCount = 3;
+}
+
+message C2G_RequestEnterMap // IRequest
+{
+	int32 RpcId = 90;
+	int32 Account = 1;
+}
+
+message G2C_RequestEnterMap // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	float PositionX = 1;
+	float PositionY = 2;
+	float PositionZ = 3;
+}
+
+message C2G_PlayerRoleNetwork // IMessage
+{
+	int32 Account = 1;
+	float PositionX = 2;
+	float PositionY = 3;
+	float PositionZ = 4;
+	float RotationX = 5;
+	float RotationY = 6;
+	float RotationZ = 7;
+	float RotationW = 8;
+	float VelocityX = 9;
+	float VelocityY = 10;
+	float VelocityZ = 11;
+	bool Fire = 12;
+	repeated BulletInfo Bullets = 13;
+}
+
+message C2G_GetOtherPlayer // IMessage
+{
+	int32 RpcId = 90;
+	int32 Account = 1;
+}
+
+message G2C_OtherPlayerEnterMap // IMessage
+{
+	int32 Account = 1;
+	float PositionX = 2;
+	float PositionY = 3;
+	float PositionZ = 4;
+}
+
+message G2C_OtherPlayerPosition // IMessage
+{
+	repeated int32 DirAccount = 1;
+    repeated float PositionX = 2;
+    repeated float PositionY = 3;
+    repeated float PositionZ = 4;
+	repeated float RotationX = 5;
+	repeated float RotationY = 6;
+	repeated float RotationZ = 7;
+	repeated float RotationW = 8;
+	repeated float VelocityX = 9;
+	repeated float VelocityY = 10;
+	repeated float VelocityZ = 11;
+	int64 serverTime = 12;
+	repeated bool Fire = 13;
+	repeated BulletInfo Bullets = 14;
+}
+
+message BulletInfo // IMessage
+{
+	int32 Account = 1;
+	float PositionX = 2;
+	float PositionY = 3;
+	float PositionZ = 4;
+	float RotationX = 5;
+	float RotationY = 6;
+	float RotationZ = 7;
+	float RotationW = 8;
+	float VelocityX = 9;
+	float VelocityY = 10;
+	float VelocityZ = 11;
+}
+
+message G2C_PlayerDisCatenate // IMessage
+{
+	int32 RpcId = 90;
+	int32 Account = 1;
+}
+
+message C2G_PlayerHitOtherPlayer // IMessage
+{
+	int32 RpcId = 90;
+	int32 SelfAccount = 1;
+	int32 HitPlayerAccount = 2;
+	int32 SubHealth = 3;
+}
+
+message G2C_PlayerHealthUpuate // IMessage
+{
+	int32 RpcId = 90;
+	int32 NewHealth = 1;
+    bool Die = 2;
+}
+
+message G2C_OtherPlayerDie // IMessage
+{
+	int32 RpcId = 90;
+	int32 DiePlayerAccount = 1;
+}
+
+message G2C_PlayerResurrection // IMessage
+{
+	int32 RpcId = 90;
+	int32 ResurrectionPlayerAccount = 1;
+	float PositionX = 2;
+    float PositionY = 3;
+    float PositionZ = 4;
+}

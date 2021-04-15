@@ -1,0 +1,19 @@
+syntax = "proto3";
+package ETModel;
+
+message C2R_Ping // IRequest
+{
+	int32 RpcId = 90;
+}
+
+message R2C_Ping // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+}
+
+message G2C_PlayerPlaying // IMessage
+{
+	int32 RpcId = 90;
+}

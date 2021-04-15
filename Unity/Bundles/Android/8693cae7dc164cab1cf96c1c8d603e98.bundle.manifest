@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1470096207
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 62ee34f6a6d7d45c70f3506904d49a36
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: baedefce1c3a59ef8a9442af500734c4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 502d8cafd6a5a0447ab1db9a24cdcb10, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Bundles/Independent/Code.prefab
+Dependencies:
+- D:/GITHUB/ETLearn_V5.0_Copy/Unity/Bundles/Android/c37e184e40f5122fe18818b34a2689dd.bundle

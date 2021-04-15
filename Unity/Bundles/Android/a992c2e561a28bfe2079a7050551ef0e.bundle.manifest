@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 168282521
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d13da3f7a14820e606bd1c1a8d94ad7e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/Sprites/TargetArrow/TargetArrow.png
+Dependencies: []

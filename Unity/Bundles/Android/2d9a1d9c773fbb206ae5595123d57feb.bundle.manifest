@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1596058542
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fa2b3b8d1458af5a7d59b7b48afd421d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0551b5b72d9a1b61af82c17af3481273
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/Scene/Arena/Textures/SkyBox/sun_set_clouds03.mat
+- Assets/Res/Scene/Arena/Textures/SkyBox/sun_set_clouds03.hdr
+Dependencies: []

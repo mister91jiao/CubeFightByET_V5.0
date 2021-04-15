@@ -1,0 +1,1053 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4947f7f01d8d04a4ea2c99dd0baca8f1, type: 3}
+  m_Name: Rules
+  m_EditorClassIdentifier: 
+  build: 10
+  major: 1
+  minor: 1
+  scenesFolders:
+  - Assets/Scenes
+  autoRecord: 0
+  autoGroupByDirectories: []
+  validateAssetPath: 0
+  allAssetsToBuild: 1
+  patchesInBuild: []
+  scenesInBuild:
+  - {fileID: 102900000, guid: e0d691ac8c1d0454ba07089ea820e18a, type: 3}
+  - {fileID: 102900000, guid: a5294483f20f40d449699101bb428cda, type: 3}
+  - {fileID: 102900000, guid: b934dce2536e4ea49909d23048c46d35, type: 3}
+  extension: .bundle
+  nameByHash: 1
+  options: 256
+  assets:
+  - name: Assets/Bundles/Prefab/BulletFX.prefab
+    group: 
+    bundle: db687ab885e0989528aa202bc4b83588.bundle
+    id: 0
+    groupBy: 2
+  - name: Assets/Bundles/UI/UIPlayerInfo.prefab
+    group: 
+    bundle: eec7ef6e7ea6cf5af30b90ac0a846c67.bundle
+    id: 0
+    groupBy: 2
+  - name: Assets/Bundles/UI/UIPlayerDie.prefab
+    group: 
+    bundle: 4f27275719b87ae2fc107692ec690d6b.bundle
+    id: 0
+    groupBy: 2
+  - name: Assets/Bundles/UI/UILogin.prefab
+    group: 
+    bundle: 58ab558a7b2cefdd64820e50c03dbae8.bundle
+    id: 0
+    groupBy: 2
+  - name: Assets/Bundles/Prefab/PlayerCube.prefab
+    group: 
+    bundle: 5f435424cd60b4e9a8476c9f06a2ae5d.bundle
+    id: 0
+    groupBy: 2
+  - name: Assets/Bundles/UI/UILobby.prefab
+    group: 
+    bundle: 7b76ff19da62b7791ffc4e010d2dc2f5.bundle
+    id: 0
+    groupBy: 2
+  - name: Assets/Bundles/Prefab/TargetArrow.prefab
+    group: 
+    bundle: 3547e88256f566825f31c04752fb8e29.bundle
+    id: 0
+    groupBy: 2
+  - name: Assets/Bundles/Independent/Code.prefab
+    group: 
+    bundle: 8693cae7dc164cab1cf96c1c8d603e98.bundle
+    id: 0
+    groupBy: 2
+  - name: Assets/Bundles/Prefab/OtherCube.prefab
+    group: 
+    bundle: a1c33605b709ae51c03b1fc2151928c9.bundle
+    id: 0
+    groupBy: 2
+  - name: Assets/Bundles/UI/UIAttackDirstick.prefab
+    group: 
+    bundle: 60b1830178ce28f0354b71f3e8ec3e72.bundle
+    id: 0
+    groupBy: 2
+  - name: Assets/Bundles/UI/UIJoystick.prefab
+    group: 
+    bundle: 96e55a9fb5255482f6f3a33ade24d7dc.bundle
+    id: 0
+    groupBy: 2
+  - name: Assets/Res/Sprites/Handles/Handle_Plain.png
+    group: 
+    bundle: 998cc68724adc13f736546f6dc6fdf7b.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Unit/TargetArrow/TargetArrow.prefab
+    group: 
+    bundle: 63949605cc5ba18ad00071d6550ffa6c.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/TargetArrow/TargetArrow.png
+    group: 
+    bundle: a992c2e561a28bfe2079a7050551ef0e.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletPrefab/hitEffect.prefab
+    group: 
+    bundle: 56e6a3b06d7556cef6c5af3ad036f8c9.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/YangQiPingRed.mat
+    group: 
+    bundle: dcab79e01c889cec51c36f5e5026e1c4.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000004EEA.TIF
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Unit/PlayerCube/PlayerCube.prefab
+    group: 
+    bundle: f5d3293bbd4ddc40573f59518cc2c772.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/PhysicMaterial/NoFrictional.physicMaterial
+    group: 
+    bundle: a50e8db302626e28a44577f49ab20c33.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletPrefab/gunFire.prefab
+    group: 
+    bundle: 56e6a3b06d7556cef6c5af3ad036f8c9.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/Bus/Car_1.prefab
+    group: 
+    bundle: 002a2aa80f7b0e307c9ddc9ed4f2fd15.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001DC2.TIF
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Textures/SimpleBus/cars_albedo.tif
+    group: 
+    bundle: 647d116a5054c4baae8f9ce6191c8dd8.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/00000000284F.TIF
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/OWMod/YouHu.prefab
+    group: 
+    bundle: ecdd08eb0f0987f1e85eaa53da8f76b5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/OWMod/MieHuoQiWaiTaoRed.prefab
+    group: 
+    bundle: ecdd08eb0f0987f1e85eaa53da8f76b5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/OWMod/BingXiangRed.prefab
+    group: 
+    bundle: ecdd08eb0f0987f1e85eaa53da8f76b5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/All Axis Backgrounds/AllAxis_Outline_Arrows.png
+    group: 
+    bundle: 1ca3f2f673c498d04f54c3da07060203.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/OWMod/YangQiPingRed.prefab
+    group: 
+    bundle: ecdd08eb0f0987f1e85eaa53da8f76b5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/Horizontal Backgrounds/Horizontal_Outline_Arrows.png
+    group: 
+    bundle: 881e3f6ebd04db6e05f3361b6da70b17.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/Vertical Backgrounds/Vertical_Plain.png
+    group: 
+    bundle: 1eb5eb1e1330987649adf89694abfcaf.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Unit/OtherCube/OtherDirCube.prefab
+    group: 
+    bundle: a7e89be1be8700386611499932cec327.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/Bus/Car_3.prefab
+    group: 
+    bundle: 002a2aa80f7b0e307c9ddc9ed4f2fd15.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Unit/Material/Blue.mat
+    group: 
+    bundle: a7f4ed3e7b99ca9eda5ec8de5229b77a.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000002256.TIF
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/Handles/Handle_Outline.png
+    group: 
+    bundle: 998cc68724adc13f736546f6dc6fdf7b.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletMat/fire/flarespark_additive.mat
+    group: 
+    bundle: ba5dbfea8ec4ad2b36ba1a7f4f213a7d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/BusModle/police_car.FBX
+    group: 
+    bundle: 52ca77f994d4bc9e10c1e60e5f1e7f7d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Textures/SimpleBus/bus_metallic.tif
+    group: 
+    bundle: 647d116a5054c4baae8f9ce6191c8dd8.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/Handles/Handle_Ridged.png
+    group: 
+    bundle: 998cc68724adc13f736546f6dc6fdf7b.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Unit/Material/Plane.mat
+    group: 
+    bundle: a7f4ed3e7b99ca9eda5ec8de5229b77a.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Textures/SimpleBus/cars_AO.tif
+    group: 
+    bundle: 647d116a5054c4baae8f9ce6191c8dd8.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/00000000228A.TIF
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001E53.tif
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000007CDB.TIF
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png
+    group: 
+    bundle: 1eb5eb1e1330987649adf89694abfcaf.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Textures/SimpleBus/bus_AO.tif
+    group: 
+    bundle: 647d116a5054c4baae8f9ce6191c8dd8.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Unit/OtherCube/OtherCube.prefab
+    group: 
+    bundle: a7e89be1be8700386611499932cec327.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/Horizontal Backgrounds/Horizontal_Plain_Arrows.png
+    group: 
+    bundle: 881e3f6ebd04db6e05f3361b6da70b17.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/OWMod/DaJiQiBlue.prefab
+    group: 
+    bundle: ecdd08eb0f0987f1e85eaa53da8f76b5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/All Axis Backgrounds/AllAxis_Plain.png
+    group: 
+    bundle: 1ca3f2f673c498d04f54c3da07060203.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/Horizontal Backgrounds/Horizontal_Plain.png
+    group: 
+    bundle: 881e3f6ebd04db6e05f3361b6da70b17.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001DC1.TIF
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/Bus/Car_2.prefab
+    group: 
+    bundle: 002a2aa80f7b0e307c9ddc9ed4f2fd15.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletText/glowSparks.psd
+    group: 
+    bundle: 6b5910b858e133efa4c981cac107a8e5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletText/realisticSmoke.psd
+    group: 
+    bundle: 6b5910b858e133efa4c981cac107a8e5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/OWMod.fbx
+    group: 
+    bundle: aed10e7aecb7c9dcc0b540bbe2c1eb6a.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/Bus/Bus_2.prefab
+    group: 
+    bundle: 002a2aa80f7b0e307c9ddc9ed4f2fd15.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Code/Hotfix.pdb.bytes
+    group: 
+    bundle: c37e184e40f5122fe18818b34a2689dd.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/Handles/Handle_Outline_Arrows.png
+    group: 
+    bundle: 998cc68724adc13f736546f6dc6fdf7b.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Textures/SimpleBus/cars_albedo_2.tif
+    group: 
+    bundle: 647d116a5054c4baae8f9ce6191c8dd8.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/Handles/Handle_Ridged_Arrows.png
+    group: 
+    bundle: 998cc68724adc13f736546f6dc6fdf7b.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000007CDA.TIF
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/0000000022AF.tif
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletMat/smoke/realisticSmokePuff_alphaBlended.mat
+    group: 
+    bundle: 9425451656fe6dc48e4c43a7dd5b0132.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000003750.TIF
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/YouTongYello.mat
+    group: 
+    bundle: dcab79e01c889cec51c36f5e5026e1c4.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/Panel/GameOverPanel.prefab
+    group: 
+    bundle: 50275fbd3f66157016716ed3ee88fd1c.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/00000000228C.tif
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/Horizontal Backgrounds/Horizontal_Outline.png
+    group: 
+    bundle: 881e3f6ebd04db6e05f3361b6da70b17.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Unit/Material/CubeYello.mat
+    group: 
+    bundle: a7f4ed3e7b99ca9eda5ec8de5229b77a.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/OWMod/YouTongYello.prefab
+    group: 
+    bundle: ecdd08eb0f0987f1e85eaa53da8f76b5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/YangQiPingGreen.mat
+    group: 
+    bundle: dcab79e01c889cec51c36f5e5026e1c4.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Materials/Texture/KB3D_SidewalkBroken_Diffuse.jpg
+    group: 
+    bundle: 261469a3a9d54904d4adafcc5e49d233.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/YouHu.mat
+    group: 
+    bundle: dcab79e01c889cec51c36f5e5026e1c4.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/OWMod/BingXiangBlack.prefab
+    group: 
+    bundle: ecdd08eb0f0987f1e85eaa53da8f76b5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/BusModle/bus.FBX
+    group: 
+    bundle: 52ca77f994d4bc9e10c1e60e5f1e7f7d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/OWMod/HeZi.prefab
+    group: 
+    bundle: ecdd08eb0f0987f1e85eaa53da8f76b5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/OWMod/ShaDaiZhiJiaYello.prefab
+    group: 
+    bundle: ecdd08eb0f0987f1e85eaa53da8f76b5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/OWMod/XieGui.prefab
+    group: 
+    bundle: ecdd08eb0f0987f1e85eaa53da8f76b5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/0000000018E4.TIF
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/OWMod/DaJiQiRed.prefab
+    group: 
+    bundle: ecdd08eb0f0987f1e85eaa53da8f76b5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/DaJiQiBlue.mat
+    group: 
+    bundle: dcab79e01c889cec51c36f5e5026e1c4.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/BusModle/Materials/No Name.mat
+    group: 
+    bundle: 7ecbd706e54b9e056ede28c92fa64a37.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/0000000018E7.tif
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Textures/SkyBox/sun_set_clouds03.hdr
+    group: 
+    bundle: 2d9a1d9c773fbb206ae5595123d57feb.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png
+    group: 
+    bundle: 1eb5eb1e1330987649adf89694abfcaf.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/Handles/Handle_Plain_Arrows.png
+    group: 
+    bundle: 998cc68724adc13f736546f6dc6fdf7b.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/ShaDaiZhiJiaYello.mat
+    group: 
+    bundle: dcab79e01c889cec51c36f5e5026e1c4.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/BusModle/car_1.FBX
+    group: 
+    bundle: 52ca77f994d4bc9e10c1e60e5f1e7f7d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/BusModle/car_2.FBX
+    group: 
+    bundle: 52ca77f994d4bc9e10c1e60e5f1e7f7d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/Bus/Car_4.prefab
+    group: 
+    bundle: 002a2aa80f7b0e307c9ddc9ed4f2fd15.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/OWMod/ShaDaiZhiJiaRed.prefab
+    group: 
+    bundle: ecdd08eb0f0987f1e85eaa53da8f76b5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Unit/Material/Red.mat
+    group: 
+    bundle: a7f4ed3e7b99ca9eda5ec8de5229b77a.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/ShaDaiZhiJiaRed.mat
+    group: 
+    bundle: dcab79e01c889cec51c36f5e5026e1c4.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000004EE9.TIF
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Code/Hotfix.dll.bytes
+    group: 
+    bundle: c37e184e40f5122fe18818b34a2689dd.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletText/explodedecal.psd
+    group: 
+    bundle: 6b5910b858e133efa4c981cac107a8e5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Materials/BusMT/Bus_2.mat
+    group: 
+    bundle: cd7a4f48dab1a288934f01976d566cf0.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/0000000022AE.TIF
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/Vertical Backgrounds/Vertical_Ridged.png
+    group: 
+    bundle: 1eb5eb1e1330987649adf89694abfcaf.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/Bar/Spritemap.psd
+    group: 
+    bundle: fdcf5605249e9efdbfe6c925592f3a47.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000004EEB.tif
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletMat/bullet/bullet_line_additive.mat
+    group: 
+    bundle: ad4597b5696337176204263e0fbbabff.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletText/Light.psd
+    group: 
+    bundle: 6b5910b858e133efa4c981cac107a8e5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Textures/SimpleBus/bus_albedo_2.tif
+    group: 
+    bundle: 647d116a5054c4baae8f9ce6191c8dd8.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/XieGui.mat
+    group: 
+    bundle: dcab79e01c889cec51c36f5e5026e1c4.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/HeZi.mat
+    group: 
+    bundle: dcab79e01c889cec51c36f5e5026e1c4.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001E52.TIF
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/0000000027BC.TIF
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/MieHuoQiWaiTaoRed.mat
+    group: 
+    bundle: dcab79e01c889cec51c36f5e5026e1c4.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/Bus/Police_car.prefab
+    group: 
+    bundle: 002a2aa80f7b0e307c9ddc9ed4f2fd15.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletMod/cone_closed.obj
+    group: 
+    bundle: 326c60457f5688569174248c063f0631.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Textures/SimpleBus/bus_albedo.tif
+    group: 
+    bundle: 647d116a5054c4baae8f9ce6191c8dd8.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png
+    group: 
+    bundle: 1ca3f2f673c498d04f54c3da07060203.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png
+    group: 
+    bundle: 881e3f6ebd04db6e05f3361b6da70b17.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001DC3.tif
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Unit/Material/Green.mat
+    group: 
+    bundle: a7f4ed3e7b99ca9eda5ec8de5229b77a.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/YouTongRed.mat
+    group: 
+    bundle: dcab79e01c889cec51c36f5e5026e1c4.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/DaJiQiRed.mat
+    group: 
+    bundle: dcab79e01c889cec51c36f5e5026e1c4.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/BingXiangRed.mat
+    group: 
+    bundle: dcab79e01c889cec51c36f5e5026e1c4.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/00000000228B.TIF
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png
+    group: 
+    bundle: 1ca3f2f673c498d04f54c3da07060203.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/OWMod/YouTongRed.prefab
+    group: 
+    bundle: ecdd08eb0f0987f1e85eaa53da8f76b5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Materials/BusMT/Cars_2.mat
+    group: 
+    bundle: cd7a4f48dab1a288934f01976d566cf0.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletMat/generic/projectileGlow_additive.mat
+    group: 
+    bundle: 748cd6e513153aa8a649a1332077bc25.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletMat/generic/muzzleflareGlow_additive.mat
+    group: 
+    bundle: 748cd6e513153aa8a649a1332077bc25.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/BingXiangBlack.mat
+    group: 
+    bundle: dcab79e01c889cec51c36f5e5026e1c4.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001ECA.TIF
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Textures/SkyBox/sun_set_clouds03.mat
+    group: 
+    bundle: 2d9a1d9c773fbb206ae5595123d57feb.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletMat/decal/decal_explode_glow.mat
+    group: 
+    bundle: 3a2824b9b3766ccb7dfe61f104cf223f.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Unit/TargetArrow/TargetArrowMat.mat
+    group: 
+    bundle: 63949605cc5ba18ad00071d6550ffa6c.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletMat/sparks/hardBallSpark_additive.mat
+    group: 
+    bundle: 6a04f481165abf2e0cb4823279e9d5d7.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletMat/generic/impactGlow_additive.mat
+    group: 
+    bundle: 748cd6e513153aa8a649a1332077bc25.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Materials/Texture/KB3D_SidewalkBroken_Glossiness.jpg
+    group: 
+    bundle: 261469a3a9d54904d4adafcc5e49d233.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletMod/cone.obj
+    group: 
+    bundle: 326c60457f5688569174248c063f0631.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletText/flarespark.psd
+    group: 
+    bundle: 6b5910b858e133efa4c981cac107a8e5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Materials/BusMT/Bus_1.mat
+    group: 
+    bundle: cd7a4f48dab1a288934f01976d566cf0.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletMat/fire/muzzleflare_flash_additive.mat
+    group: 
+    bundle: ba5dbfea8ec4ad2b36ba1a7f4f213a7d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletText/muzzleFlare.psd
+    group: 
+    bundle: 6b5910b858e133efa4c981cac107a8e5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletPrefab/bullet.prefab
+    group: 
+    bundle: 56e6a3b06d7556cef6c5af3ad036f8c9.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001EC9.TIF
+    group: 
+    bundle: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletMod/muzzleFlare.obj
+    group: 
+    bundle: 326c60457f5688569174248c063f0631.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Materials/Texture/KB3D_SidewalkBroken_Normal.jpg
+    group: 
+    bundle: 261469a3a9d54904d4adafcc5e49d233.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/Bus/Bus_1.prefab
+    group: 
+    bundle: 002a2aa80f7b0e307c9ddc9ed4f2fd15.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/bulletFX/bulletMat/decal/decal_explode_alphaBlend.mat
+    group: 
+    bundle: 3a2824b9b3766ccb7dfe61f104cf223f.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Materials/BusMT/Cars_1.mat
+    group: 
+    bundle: cd7a4f48dab1a288934f01976d566cf0.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/Vertical Backgrounds/Vertical_Outline.png
+    group: 
+    bundle: 1eb5eb1e1330987649adf89694abfcaf.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Textures/SimpleBus/cars_metallic.tif
+    group: 
+    bundle: 647d116a5054c4baae8f9ce6191c8dd8.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/All Axis Backgrounds/AllAxis_Ridged.png
+    group: 
+    bundle: 1ca3f2f673c498d04f54c3da07060203.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/Horizontal Backgrounds/Horizontal_Ridged.png
+    group: 
+    bundle: 881e3f6ebd04db6e05f3361b6da70b17.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png
+    group: 
+    bundle: 1eb5eb1e1330987649adf89694abfcaf.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Scene/Arena/Prefabs/OWMod/YangQiPingGreen.prefab
+    group: 
+    bundle: ecdd08eb0f0987f1e85eaa53da8f76b5.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Sprites/All Axis Backgrounds/AllAxis_Outline.png
+    group: 
+    bundle: 1ca3f2f673c498d04f54c3da07060203.bundle
+    id: 0
+    groupBy: 3
+  - name: Assets/Res/Unit/Material/Blk.mat
+    group: 
+    bundle: a7f4ed3e7b99ca9eda5ec8de5229b77a.bundle
+    id: 0
+    groupBy: 3
+  patches: []
+  bundles:
+  - assetBundleName: db687ab885e0989528aa202bc4b83588.bundle
+    assetNames:
+    - Assets/Bundles/Prefab/BulletFX.prefab
+  - assetBundleName: eec7ef6e7ea6cf5af30b90ac0a846c67.bundle
+    assetNames:
+    - Assets/Bundles/UI/UIPlayerInfo.prefab
+  - assetBundleName: 4f27275719b87ae2fc107692ec690d6b.bundle
+    assetNames:
+    - Assets/Bundles/UI/UIPlayerDie.prefab
+  - assetBundleName: 58ab558a7b2cefdd64820e50c03dbae8.bundle
+    assetNames:
+    - Assets/Bundles/UI/UILogin.prefab
+  - assetBundleName: 5f435424cd60b4e9a8476c9f06a2ae5d.bundle
+    assetNames:
+    - Assets/Bundles/Prefab/PlayerCube.prefab
+  - assetBundleName: 7b76ff19da62b7791ffc4e010d2dc2f5.bundle
+    assetNames:
+    - Assets/Bundles/UI/UILobby.prefab
+  - assetBundleName: 3547e88256f566825f31c04752fb8e29.bundle
+    assetNames:
+    - Assets/Bundles/Prefab/TargetArrow.prefab
+  - assetBundleName: 8693cae7dc164cab1cf96c1c8d603e98.bundle
+    assetNames:
+    - Assets/Bundles/Independent/Code.prefab
+  - assetBundleName: a1c33605b709ae51c03b1fc2151928c9.bundle
+    assetNames:
+    - Assets/Bundles/Prefab/OtherCube.prefab
+  - assetBundleName: 60b1830178ce28f0354b71f3e8ec3e72.bundle
+    assetNames:
+    - Assets/Bundles/UI/UIAttackDirstick.prefab
+  - assetBundleName: 96e55a9fb5255482f6f3a33ade24d7dc.bundle
+    assetNames:
+    - Assets/Bundles/UI/UIJoystick.prefab
+  - assetBundleName: 998cc68724adc13f736546f6dc6fdf7b.bundle
+    assetNames:
+    - Assets/Res/Sprites/Handles/Handle_Plain.png
+    - Assets/Res/Sprites/Handles/Handle_Outline.png
+    - Assets/Res/Sprites/Handles/Handle_Ridged.png
+    - Assets/Res/Sprites/Handles/Handle_Outline_Arrows.png
+    - Assets/Res/Sprites/Handles/Handle_Ridged_Arrows.png
+    - Assets/Res/Sprites/Handles/Handle_Plain_Arrows.png
+  - assetBundleName: 63949605cc5ba18ad00071d6550ffa6c.bundle
+    assetNames:
+    - Assets/Res/Unit/TargetArrow/TargetArrow.prefab
+    - Assets/Res/Unit/TargetArrow/TargetArrowMat.mat
+  - assetBundleName: a992c2e561a28bfe2079a7050551ef0e.bundle
+    assetNames:
+    - Assets/Res/Sprites/TargetArrow/TargetArrow.png
+  - assetBundleName: 56e6a3b06d7556cef6c5af3ad036f8c9.bundle
+    assetNames:
+    - Assets/Res/bulletFX/bulletPrefab/hitEffect.prefab
+    - Assets/Res/bulletFX/bulletPrefab/gunFire.prefab
+    - Assets/Res/bulletFX/bulletPrefab/bullet.prefab
+  - assetBundleName: dcab79e01c889cec51c36f5e5026e1c4.bundle
+    assetNames:
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/YangQiPingRed.mat
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/YouTongYello.mat
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/YangQiPingGreen.mat
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/YouHu.mat
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/DaJiQiBlue.mat
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/ShaDaiZhiJiaYello.mat
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/ShaDaiZhiJiaRed.mat
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/XieGui.mat
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/HeZi.mat
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/MieHuoQiWaiTaoRed.mat
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/YouTongRed.mat
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/DaJiQiRed.mat
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/BingXiangRed.mat
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/BingXiangBlack.mat
+  - assetBundleName: 7ae1d9e400c7e9d8762aa8e18513448d.bundle
+    assetNames:
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000004EEA.TIF
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001DC2.TIF
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/00000000284F.TIF
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000002256.TIF
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/00000000228A.TIF
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001E53.tif
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000007CDB.TIF
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001DC1.TIF
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000007CDA.TIF
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/0000000022AF.tif
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000003750.TIF
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/00000000228C.tif
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/0000000018E4.TIF
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/0000000018E7.tif
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000004EE9.TIF
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/0000000022AE.TIF
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000004EEB.tif
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001E52.TIF
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/0000000027BC.TIF
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001DC3.tif
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/00000000228B.TIF
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001ECA.TIF
+    - Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001EC9.TIF
+  - assetBundleName: f5d3293bbd4ddc40573f59518cc2c772.bundle
+    assetNames:
+    - Assets/Res/Unit/PlayerCube/PlayerCube.prefab
+  - assetBundleName: a50e8db302626e28a44577f49ab20c33.bundle
+    assetNames:
+    - Assets/Res/PhysicMaterial/NoFrictional.physicMaterial
+  - assetBundleName: 002a2aa80f7b0e307c9ddc9ed4f2fd15.bundle
+    assetNames:
+    - Assets/Res/Scene/Arena/Prefabs/Bus/Car_1.prefab
+    - Assets/Res/Scene/Arena/Prefabs/Bus/Car_3.prefab
+    - Assets/Res/Scene/Arena/Prefabs/Bus/Car_2.prefab
+    - Assets/Res/Scene/Arena/Prefabs/Bus/Bus_2.prefab
+    - Assets/Res/Scene/Arena/Prefabs/Bus/Car_4.prefab
+    - Assets/Res/Scene/Arena/Prefabs/Bus/Police_car.prefab
+    - Assets/Res/Scene/Arena/Prefabs/Bus/Bus_1.prefab
+  - assetBundleName: 647d116a5054c4baae8f9ce6191c8dd8.bundle
+    assetNames:
+    - Assets/Res/Scene/Arena/Textures/SimpleBus/cars_albedo.tif
+    - Assets/Res/Scene/Arena/Textures/SimpleBus/bus_metallic.tif
+    - Assets/Res/Scene/Arena/Textures/SimpleBus/cars_AO.tif
+    - Assets/Res/Scene/Arena/Textures/SimpleBus/bus_AO.tif
+    - Assets/Res/Scene/Arena/Textures/SimpleBus/cars_albedo_2.tif
+    - Assets/Res/Scene/Arena/Textures/SimpleBus/bus_albedo_2.tif
+    - Assets/Res/Scene/Arena/Textures/SimpleBus/bus_albedo.tif
+    - Assets/Res/Scene/Arena/Textures/SimpleBus/cars_metallic.tif
+  - assetBundleName: ecdd08eb0f0987f1e85eaa53da8f76b5.bundle
+    assetNames:
+    - Assets/Res/Scene/Arena/Prefabs/OWMod/YouHu.prefab
+    - Assets/Res/Scene/Arena/Prefabs/OWMod/MieHuoQiWaiTaoRed.prefab
+    - Assets/Res/Scene/Arena/Prefabs/OWMod/BingXiangRed.prefab
+    - Assets/Res/Scene/Arena/Prefabs/OWMod/YangQiPingRed.prefab
+    - Assets/Res/Scene/Arena/Prefabs/OWMod/DaJiQiBlue.prefab
+    - Assets/Res/Scene/Arena/Prefabs/OWMod/YouTongYello.prefab
+    - Assets/Res/Scene/Arena/Prefabs/OWMod/BingXiangBlack.prefab
+    - Assets/Res/Scene/Arena/Prefabs/OWMod/HeZi.prefab
+    - Assets/Res/Scene/Arena/Prefabs/OWMod/ShaDaiZhiJiaYello.prefab
+    - Assets/Res/Scene/Arena/Prefabs/OWMod/XieGui.prefab
+    - Assets/Res/Scene/Arena/Prefabs/OWMod/DaJiQiRed.prefab
+    - Assets/Res/Scene/Arena/Prefabs/OWMod/ShaDaiZhiJiaRed.prefab
+    - Assets/Res/Scene/Arena/Prefabs/OWMod/YouTongRed.prefab
+    - Assets/Res/Scene/Arena/Prefabs/OWMod/YangQiPingGreen.prefab
+  - assetBundleName: 1ca3f2f673c498d04f54c3da07060203.bundle
+    assetNames:
+    - Assets/Res/Sprites/All Axis Backgrounds/AllAxis_Outline_Arrows.png
+    - Assets/Res/Sprites/All Axis Backgrounds/AllAxis_Plain.png
+    - Assets/Res/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png
+    - Assets/Res/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png
+    - Assets/Res/Sprites/All Axis Backgrounds/AllAxis_Ridged.png
+    - Assets/Res/Sprites/All Axis Backgrounds/AllAxis_Outline.png
+  - assetBundleName: 881e3f6ebd04db6e05f3361b6da70b17.bundle
+    assetNames:
+    - Assets/Res/Sprites/Horizontal Backgrounds/Horizontal_Outline_Arrows.png
+    - Assets/Res/Sprites/Horizontal Backgrounds/Horizontal_Plain_Arrows.png
+    - Assets/Res/Sprites/Horizontal Backgrounds/Horizontal_Plain.png
+    - Assets/Res/Sprites/Horizontal Backgrounds/Horizontal_Outline.png
+    - Assets/Res/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png
+    - Assets/Res/Sprites/Horizontal Backgrounds/Horizontal_Ridged.png
+  - assetBundleName: 1eb5eb1e1330987649adf89694abfcaf.bundle
+    assetNames:
+    - Assets/Res/Sprites/Vertical Backgrounds/Vertical_Plain.png
+    - Assets/Res/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png
+    - Assets/Res/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png
+    - Assets/Res/Sprites/Vertical Backgrounds/Vertical_Ridged.png
+    - Assets/Res/Sprites/Vertical Backgrounds/Vertical_Outline.png
+    - Assets/Res/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png
+  - assetBundleName: a7e89be1be8700386611499932cec327.bundle
+    assetNames:
+    - Assets/Res/Unit/OtherCube/OtherDirCube.prefab
+    - Assets/Res/Unit/OtherCube/OtherCube.prefab
+  - assetBundleName: a7f4ed3e7b99ca9eda5ec8de5229b77a.bundle
+    assetNames:
+    - Assets/Res/Unit/Material/Blue.mat
+    - Assets/Res/Unit/Material/Plane.mat
+    - Assets/Res/Unit/Material/CubeYello.mat
+    - Assets/Res/Unit/Material/Red.mat
+    - Assets/Res/Unit/Material/Green.mat
+    - Assets/Res/Unit/Material/Blk.mat
+  - assetBundleName: ba5dbfea8ec4ad2b36ba1a7f4f213a7d.bundle
+    assetNames:
+    - Assets/Res/bulletFX/bulletMat/fire/flarespark_additive.mat
+    - Assets/Res/bulletFX/bulletMat/fire/muzzleflare_flash_additive.mat
+  - assetBundleName: 52ca77f994d4bc9e10c1e60e5f1e7f7d.bundle
+    assetNames:
+    - Assets/Res/Scene/Arena/Mod/BusModle/police_car.FBX
+    - Assets/Res/Scene/Arena/Mod/BusModle/bus.FBX
+    - Assets/Res/Scene/Arena/Mod/BusModle/car_1.FBX
+    - Assets/Res/Scene/Arena/Mod/BusModle/car_2.FBX
+  - assetBundleName: 6b5910b858e133efa4c981cac107a8e5.bundle
+    assetNames:
+    - Assets/Res/bulletFX/bulletText/glowSparks.psd
+    - Assets/Res/bulletFX/bulletText/realisticSmoke.psd
+    - Assets/Res/bulletFX/bulletText/explodedecal.psd
+    - Assets/Res/bulletFX/bulletText/Light.psd
+    - Assets/Res/bulletFX/bulletText/flarespark.psd
+    - Assets/Res/bulletFX/bulletText/muzzleFlare.psd
+  - assetBundleName: aed10e7aecb7c9dcc0b540bbe2c1eb6a.bundle
+    assetNames:
+    - Assets/Res/Scene/Arena/Mod/OWMod/OWMod.fbx
+  - assetBundleName: c37e184e40f5122fe18818b34a2689dd.bundle
+    assetNames:
+    - Assets/Res/Code/Hotfix.pdb.bytes
+    - Assets/Res/Code/Hotfix.dll.bytes
+  - assetBundleName: 9425451656fe6dc48e4c43a7dd5b0132.bundle
+    assetNames:
+    - Assets/Res/bulletFX/bulletMat/smoke/realisticSmokePuff_alphaBlended.mat
+  - assetBundleName: 50275fbd3f66157016716ed3ee88fd1c.bundle
+    assetNames:
+    - Assets/Res/Scene/Arena/Prefabs/Panel/GameOverPanel.prefab
+  - assetBundleName: 261469a3a9d54904d4adafcc5e49d233.bundle
+    assetNames:
+    - Assets/Res/Scene/Arena/Materials/Texture/KB3D_SidewalkBroken_Diffuse.jpg
+    - Assets/Res/Scene/Arena/Materials/Texture/KB3D_SidewalkBroken_Glossiness.jpg
+    - Assets/Res/Scene/Arena/Materials/Texture/KB3D_SidewalkBroken_Normal.jpg
+  - assetBundleName: 7ecbd706e54b9e056ede28c92fa64a37.bundle
+    assetNames:
+    - Assets/Res/Scene/Arena/Mod/BusModle/Materials/No Name.mat
+  - assetBundleName: 2d9a1d9c773fbb206ae5595123d57feb.bundle
+    assetNames:
+    - Assets/Res/Scene/Arena/Textures/SkyBox/sun_set_clouds03.hdr
+    - Assets/Res/Scene/Arena/Textures/SkyBox/sun_set_clouds03.mat
+  - assetBundleName: cd7a4f48dab1a288934f01976d566cf0.bundle
+    assetNames:
+    - Assets/Res/Scene/Arena/Materials/BusMT/Bus_2.mat
+    - Assets/Res/Scene/Arena/Materials/BusMT/Cars_2.mat
+    - Assets/Res/Scene/Arena/Materials/BusMT/Bus_1.mat
+    - Assets/Res/Scene/Arena/Materials/BusMT/Cars_1.mat
+  - assetBundleName: fdcf5605249e9efdbfe6c925592f3a47.bundle
+    assetNames:
+    - Assets/Res/Sprites/Bar/Spritemap.psd
+  - assetBundleName: ad4597b5696337176204263e0fbbabff.bundle
+    assetNames:
+    - Assets/Res/bulletFX/bulletMat/bullet/bullet_line_additive.mat
+  - assetBundleName: 326c60457f5688569174248c063f0631.bundle
+    assetNames:
+    - Assets/Res/bulletFX/bulletMod/cone_closed.obj
+    - Assets/Res/bulletFX/bulletMod/cone.obj
+    - Assets/Res/bulletFX/bulletMod/muzzleFlare.obj
+  - assetBundleName: 748cd6e513153aa8a649a1332077bc25.bundle
+    assetNames:
+    - Assets/Res/bulletFX/bulletMat/generic/projectileGlow_additive.mat
+    - Assets/Res/bulletFX/bulletMat/generic/muzzleflareGlow_additive.mat
+    - Assets/Res/bulletFX/bulletMat/generic/impactGlow_additive.mat
+  - assetBundleName: 3a2824b9b3766ccb7dfe61f104cf223f.bundle
+    assetNames:
+    - Assets/Res/bulletFX/bulletMat/decal/decal_explode_glow.mat
+    - Assets/Res/bulletFX/bulletMat/decal/decal_explode_alphaBlend.mat
+  - assetBundleName: 6a04f481165abf2e0cb4823279e9d5d7.bundle
+    assetNames:
+    - Assets/Res/bulletFX/bulletMat/sparks/hardBallSpark_additive.mat
+  currentScene: 

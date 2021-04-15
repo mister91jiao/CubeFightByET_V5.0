@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 426556129
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b50b4484ae57684ac4050548bf270f98
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c90fc19e2679e5295d10bd00f33cb4c3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/Sprites/Vertical Backgrounds/Vertical_Plain.png
+- Assets/Res/Sprites/Vertical Backgrounds/Vertical_Ridged.png
+- Assets/Res/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png
+- Assets/Res/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png
+- Assets/Res/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png
+- Assets/Res/Sprites/Vertical Backgrounds/Vertical_Outline.png
+Dependencies: []

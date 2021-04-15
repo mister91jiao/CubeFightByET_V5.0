@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 3763877226
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a210d25ba3c7d66392cf35054f00d155
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8132b68674a3106a14102bd2d8db5e59
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/Scene/Arena/Prefabs/OWMod/YangQiPingGreen.prefab
+- Assets/Res/Scene/Arena/Prefabs/OWMod/ShaDaiZhiJiaRed.prefab
+- Assets/Res/Scene/Arena/Prefabs/OWMod/YangQiPingRed.prefab
+- Assets/Res/Scene/Arena/Prefabs/OWMod/YouTongRed.prefab
+- Assets/Res/Scene/Arena/Prefabs/OWMod/DaJiQiBlue.prefab
+- Assets/Res/Scene/Arena/Prefabs/OWMod/BingXiangRed.prefab
+- Assets/Res/Scene/Arena/Prefabs/OWMod/YouHu.prefab
+- Assets/Res/Scene/Arena/Prefabs/OWMod/MieHuoQiWaiTaoRed.prefab
+- Assets/Res/Scene/Arena/Prefabs/OWMod/YouTongYello.prefab
+- Assets/Res/Scene/Arena/Prefabs/OWMod/BingXiangBlack.prefab
+- Assets/Res/Scene/Arena/Prefabs/OWMod/HeZi.prefab
+- Assets/Res/Scene/Arena/Prefabs/OWMod/ShaDaiZhiJiaYello.prefab
+- Assets/Res/Scene/Arena/Prefabs/OWMod/XieGui.prefab
+- Assets/Res/Scene/Arena/Prefabs/OWMod/DaJiQiRed.prefab
+Dependencies:
+- D:/GITHUB/ETLearn_V5.0_Copy/Unity/Bundles/Android/aed10e7aecb7c9dcc0b540bbe2c1eb6a.bundle
+- D:/GITHUB/ETLearn_V5.0_Copy/Unity/Bundles/Android/dcab79e01c889cec51c36f5e5026e1c4.bundle

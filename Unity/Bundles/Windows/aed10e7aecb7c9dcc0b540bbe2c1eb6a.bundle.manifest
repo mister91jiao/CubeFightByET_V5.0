@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 3615223570
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 42f12c66e44e1a7a26e372688a81e67c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 07353491aca6e6a29636b555171f2e48
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/Scene/Arena/Mod/OWMod/OWMod.fbx
+Dependencies:
+- D:/GITHUB/ETLearn_V5.0/Unity/Bundles/Windows/7ae1d9e400c7e9d8762aa8e18513448d.bundle

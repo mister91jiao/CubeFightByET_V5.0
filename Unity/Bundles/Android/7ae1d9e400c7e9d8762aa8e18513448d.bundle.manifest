@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 722805184
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7d49ef03934ff8795f15d1a57aba8faf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000002256.TIF
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/0000000022AE.TIF
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/00000000228B.TIF
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000004EEB.tif
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/0000000022AF.tif
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000004EEA.TIF
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000007CDA.TIF
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001E52.TIF
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/0000000027BC.TIF
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001DC1.TIF
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/00000000228A.TIF
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001E53.tif
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000007CDB.TIF
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001DC3.tif
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001DC2.TIF
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/00000000284F.TIF
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000004EE9.TIF
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001EC9.TIF
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000003750.TIF
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/00000000228C.tif
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/0000000018E4.TIF
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/0000000018E7.tif
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/000000001ECA.TIF
+Dependencies: []

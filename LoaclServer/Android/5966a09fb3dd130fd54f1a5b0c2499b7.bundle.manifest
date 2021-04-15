@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1746334249
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2f1332592fba4e41d054aae4fcbda957
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c9e5f9332925a0d343018787fc4be837
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 502d8cafd6a5a0447ab1db9a24cdcb10, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Bundles/Prefab/Player.prefab
+Dependencies:
+- D:/_MyGitHub/ETLearn_V5.0/Unity/Bundles/Android/0043c458c78dfdd3b5a792e365aa2c04.bundle

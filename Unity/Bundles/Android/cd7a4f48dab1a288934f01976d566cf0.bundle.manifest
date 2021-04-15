@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 1382475218
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dc8a4230275262b187a2f2a4468392bd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 22357172b8cea85847937e8f62d0c077
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/Scene/Arena/Materials/BusMT/Bus_2.mat
+- Assets/Res/Scene/Arena/Materials/BusMT/Cars_2.mat
+- Assets/Res/Scene/Arena/Materials/BusMT/Cars_1.mat
+- Assets/Res/Scene/Arena/Materials/BusMT/Bus_1.mat
+Dependencies:
+- D:/GITHUB/ETLearn_V5.0_Copy/Unity/Bundles/Android/647d116a5054c4baae8f9ce6191c8dd8.bundle

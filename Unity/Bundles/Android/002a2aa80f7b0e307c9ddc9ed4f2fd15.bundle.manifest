@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 1303280898
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 201a0a583306db1a560ccd9af62c100e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8132b68674a3106a14102bd2d8db5e59
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/Scene/Arena/Prefabs/Bus/Car_1.prefab
+- Assets/Res/Scene/Arena/Prefabs/Bus/Car_3.prefab
+- Assets/Res/Scene/Arena/Prefabs/Bus/Bus_1.prefab
+- Assets/Res/Scene/Arena/Prefabs/Bus/Bus_2.prefab
+- Assets/Res/Scene/Arena/Prefabs/Bus/Car_2.prefab
+- Assets/Res/Scene/Arena/Prefabs/Bus/Car_4.prefab
+- Assets/Res/Scene/Arena/Prefabs/Bus/Police_car.prefab
+Dependencies:
+- D:/GITHUB/ETLearn_V5.0_Copy/Unity/Bundles/Android/52ca77f994d4bc9e10c1e60e5f1e7f7d.bundle
+- D:/GITHUB/ETLearn_V5.0_Copy/Unity/Bundles/Android/cd7a4f48dab1a288934f01976d566cf0.bundle

@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 4135169404
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 10e6f3cb29bce3e0c0b1ef46291d48db
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 22357172b8cea85847937e8f62d0c077
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/Unit/Material/Blue.mat
+- Assets/Res/Unit/Material/Plane.mat
+- Assets/Res/Unit/Material/Blk.mat
+- Assets/Res/Unit/Material/Red.mat
+- Assets/Res/Unit/Material/Green.mat
+- Assets/Res/Unit/Material/CubeYello.mat
+Dependencies:
+- D:/GITHUB/ETLearn_V5.0_Copy/Unity/Bundles/Android/261469a3a9d54904d4adafcc5e49d233.bundle

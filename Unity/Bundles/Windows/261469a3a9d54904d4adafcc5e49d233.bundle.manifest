@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3943726455
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9ccec29957cdb55121578eb83041bc1e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/Scene/Arena/Materials/Texture/KB3D_SidewalkBroken_Glossiness.jpg
+- Assets/Res/Scene/Arena/Materials/Texture/KB3D_SidewalkBroken_Normal.jpg
+- Assets/Res/Scene/Arena/Materials/Texture/KB3D_SidewalkBroken_Diffuse.jpg
+Dependencies: []

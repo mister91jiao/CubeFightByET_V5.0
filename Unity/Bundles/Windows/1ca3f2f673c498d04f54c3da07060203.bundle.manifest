@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 2068201100
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3c19ec48c1a94c084a13e5ae9c4ad490
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c90fc19e2679e5295d10bd00f33cb4c3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/Sprites/All Axis Backgrounds/AllAxis_Plain.png
+- Assets/Res/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png
+- Assets/Res/Sprites/All Axis Backgrounds/AllAxis_Outline_Arrows.png
+- Assets/Res/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png
+- Assets/Res/Sprites/All Axis Backgrounds/AllAxis_Outline.png
+- Assets/Res/Sprites/All Axis Backgrounds/AllAxis_Ridged.png
+Dependencies: []

@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 937592315
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 88f91d667577739e83b18983db9c2900
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0ee6329843b045c020824d01bb6743f8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/bulletFX/bulletPrefab/hitEffect.prefab
+- Assets/Res/bulletFX/bulletPrefab/bullet.prefab
+- Assets/Res/bulletFX/bulletPrefab/gunFire.prefab
+Dependencies:
+- D:/GITHUB/ETLearn_V5.0_Copy/Unity/Bundles/Android/326c60457f5688569174248c063f0631.bundle
+- D:/GITHUB/ETLearn_V5.0_Copy/Unity/Bundles/Android/3a2824b9b3766ccb7dfe61f104cf223f.bundle
+- D:/GITHUB/ETLearn_V5.0_Copy/Unity/Bundles/Android/6a04f481165abf2e0cb4823279e9d5d7.bundle
+- D:/GITHUB/ETLearn_V5.0_Copy/Unity/Bundles/Android/748cd6e513153aa8a649a1332077bc25.bundle
+- D:/GITHUB/ETLearn_V5.0_Copy/Unity/Bundles/Android/9425451656fe6dc48e4c43a7dd5b0132.bundle
+- D:/GITHUB/ETLearn_V5.0_Copy/Unity/Bundles/Android/ad4597b5696337176204263e0fbbabff.bundle
+- D:/GITHUB/ETLearn_V5.0_Copy/Unity/Bundles/Android/ba5dbfea8ec4ad2b36ba1a7f4f213a7d.bundle

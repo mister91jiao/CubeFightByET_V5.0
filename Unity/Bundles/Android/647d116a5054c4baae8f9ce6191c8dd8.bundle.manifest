@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 550011558
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 652044a0a3986844d7cdbb52bc0cac16
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/Scene/Arena/Textures/SimpleBus/bus_albedo_2.tif
+- Assets/Res/Scene/Arena/Textures/SimpleBus/cars_albedo_2.tif
+- Assets/Res/Scene/Arena/Textures/SimpleBus/bus_metallic.tif
+- Assets/Res/Scene/Arena/Textures/SimpleBus/bus_AO.tif
+- Assets/Res/Scene/Arena/Textures/SimpleBus/cars_AO.tif
+- Assets/Res/Scene/Arena/Textures/SimpleBus/cars_albedo.tif
+- Assets/Res/Scene/Arena/Textures/SimpleBus/bus_albedo.tif
+- Assets/Res/Scene/Arena/Textures/SimpleBus/cars_metallic.tif
+Dependencies: []

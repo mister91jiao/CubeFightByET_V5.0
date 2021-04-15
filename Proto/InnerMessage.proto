@@ -1,0 +1,325 @@
+syntax = "proto3";
+package ETModel;
+
+message G2G_LockRequest // IRequest
+{
+    int32 RpcId = 90;
+    int64 Id = 1;
+    string Address = 2;
+}
+
+message G2G_LockResponse // IResponse
+{
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+message G2G_LockReleaseRequest // IRequest
+{
+    int32 RpcId = 90;
+    int64 Id = 1;
+    string Address = 2;
+}
+
+message G2G_LockReleaseResponse // IResponse
+{
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+message DBSaveRequest // IRequest
+{
+    int32 RpcId = 90;
+
+    string CollectionName = 1;
+    ComponentWithId Component = 2;
+}
+
+
+message DBSaveBatchResponse // IResponse
+{
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+message DBSaveBatchRequest // IRequest
+{
+    int32 RpcId = 90;
+
+    string CollectionName = 1;
+    repeated ComponentWithId Components = 2;
+}
+
+message DBSaveResponse // IResponse
+{
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+message DBQueryRequest // IRequest
+{
+    int32 RpcId = 90;
+    int64 Id = 1;
+    string CollectionName = 2;
+}
+
+message DBQueryResponse // IResponse
+{
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+
+    ComponentWithId Component = 1;
+}
+
+message DBQueryBatchRequest // IRequest
+{
+    int32 RpcId = 90;
+    string CollectionName = 1;
+    repeated int64 IdList = 2;
+}
+
+message DBQueryBatchResponse // IResponse
+{
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+
+    repeated ComponentWithId Components = 1;
+}
+
+message DBQueryJsonRequest // IRequest
+{
+    int32 RpcId = 90;
+    string CollectionName = 1;
+    string Json = 2;
+}
+
+message DBQueryJsonResponse // IResponse
+{
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+
+    repeated ComponentWithId Components = 1;
+}
+
+message ObjectAddRequest // IRequest
+{
+    int32 RpcId = 90;
+    int64 Key = 1;
+    int64 InstanceId = 2;
+}
+
+message ObjectAddResponse // IResponse
+{
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+message ObjectRemoveRequest // IRequest
+{
+    int32 RpcId = 90;
+    int64 Key = 1;
+}
+
+message ObjectRemoveResponse // IResponse
+{
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+message ObjectLockRequest // IRequest
+{
+    int32 RpcId = 90;
+    int64 Key = 1;
+    int64 InstanceId = 2;
+    int32 Time = 3;
+}
+
+message ObjectLockResponse // IResponse
+{
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+message ObjectUnLockRequest // IRequest
+{
+    int32 RpcId = 90;
+    int64 Key = 1;
+    int64 OldInstanceId = 2;
+    int64 InstanceId = 3;
+}
+
+message ObjectUnLockResponse // IResponse
+{
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+message ObjectGetRequest // IRequest
+{
+    int32 RpcId = 90;
+    int64 Key = 1;
+}
+
+message ObjectGetResponse // IResponse
+{
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+
+    int64 InstanceId = 1;
+}
+
+message G2M_SessionDisconnect // IActorLocationMessage
+{
+    int32 RpcId = 90;
+    int64 ActorId = 94;
+}
+
+message G2M_EnterWorld // IRequest
+{
+	int32 RpcId = 90;
+    int64 ActorId = 93;
+    int32 Account	 = 1;	// 帐号
+	int64 PlayerGateInstanceId = 1;
+}
+
+message M2G_EnterWorld // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	int32 Account	 = 1;	// 帐号
+	int64 PlayerMapInstanceId = 1;
+}
+
+message Actor_PlayerInitPositionRequest // IActorRequest
+{
+	int32 RpcId = 90;
+	int64 ActorId = 93;
+}
+
+message Actor_PlayerInitPositionResponse // IActorResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	float PositionX = 1;
+	float PositionY = 2;
+	float PositionZ = 3;
+}
+
+message Actor_PlayerInitPositionUpDate //IActorMessage
+{
+    int64 ActorId = 93;
+    float PositionX = 1;
+	float PositionY = 2;
+	float PositionZ = 3;
+    float RotationX = 4;
+	float RotationY = 5;
+	float RotationZ = 6;
+	float RotationW = 7;
+	float VelocityX = 8;
+	float VelocityY = 9;
+	float VelocityZ = 10;
+    bool Fire = 11;
+    repeated BulletInfo Bullets = 12;
+}
+
+message Actor_PlayerNetSyncToCline //IActorMessage
+{
+    int64 ActorId = 93;
+    repeated int32 DirAccount = 1;
+    repeated float PositionX = 2;
+    repeated float PositionY = 3;
+    repeated float PositionZ = 4;
+	repeated float RotationX = 5;
+	repeated float RotationY = 6;
+	repeated float RotationZ = 7;
+	repeated float RotationW = 8;
+	repeated float VelocityX = 9;
+	repeated float VelocityY = 10;
+	repeated float VelocityZ = 11;
+    repeated bool Fire = 12;
+    repeated BulletInfo Bullets = 13;
+}
+
+message G2M_RemoveUnitByMap // IRequest
+{
+	int32 RpcId = 90;
+	int32 Account = 1;
+}
+
+message M2G_RemoveUnitByMap // IResponse
+{
+	int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+	repeated int32 Accounts = 1;
+}
+
+message Actor_PlayerToUnitSubHealthRequest //IActorRequest
+{
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+    int32 SubHealth = 1;
+    int32 KillerAccount = 2;
+}
+
+message Actor_PlayerToUnitSubHealthResponse //IActorResponse
+{
+    int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+
+    int32 UnitHealth = 1;
+    bool Die = 2;
+    bool AttackDiePlayer = 3;
+}
+
+message Actor_OtherPlayerDie // IActorMessage
+{
+	int64 ActorId = 93;
+	int32 DiePlayerAccount = 1;
+}
+
+message Actor_PlayerResurrection // IActorMessage
+{
+	int64 ActorId = 93;
+	int32 ResurrectionPlayerAccount = 1;
+	float PositionX = 2;
+    float PositionY = 3;
+    float PositionZ = 4;
+}
+
+message G2M_GetAllMapUnitExcept //IRequest
+{
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+    int32 Account = 1;
+}
+message M2G_GetAllMapUnitExcept //IResponse
+{
+    int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+
+    repeated int32 Accounts = 1;
+}
+
+message M2G_RecordKillData // IMessage
+{
+    int32 RpcId = 90;
+    int32 KillerAccount = 1;
+    int32 DeathAccount = 2;
+}

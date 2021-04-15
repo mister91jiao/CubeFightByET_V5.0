@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1614192984
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9caf3a38cdb31d1f07f7bb2a66cd5bba
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 22357172b8cea85847937e8f62d0c077
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/bulletFX/bulletMat/generic/projectileGlow_additive.mat
+- Assets/Res/bulletFX/bulletMat/generic/impactGlow_additive.mat
+- Assets/Res/bulletFX/bulletMat/generic/muzzleflareGlow_additive.mat
+Dependencies: []

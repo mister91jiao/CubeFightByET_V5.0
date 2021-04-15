@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3129355553
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9de1dc3ce681cd2587f38be687d47915
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/bulletFX/bulletText/Light.psd
+- Assets/Res/bulletFX/bulletText/flarespark.psd
+- Assets/Res/bulletFX/bulletText/explodedecal.psd
+- Assets/Res/bulletFX/bulletText/realisticSmoke.psd
+- Assets/Res/bulletFX/bulletText/muzzleFlare.psd
+- Assets/Res/bulletFX/bulletText/glowSparks.psd
+Dependencies: []

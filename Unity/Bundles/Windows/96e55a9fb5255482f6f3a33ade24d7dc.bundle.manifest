@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 2719390004
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dab996a801f914c03a7d90af903c94e3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3d13d65733721411e93608af072e9b84
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 502d8cafd6a5a0447ab1db9a24cdcb10, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Bundles/UI/UIJoystick.prefab
+Dependencies:
+- D:/GITHUB/ETLearn_V5.0/Unity/Bundles/Windows/1ca3f2f673c498d04f54c3da07060203.bundle
+- D:/GITHUB/ETLearn_V5.0/Unity/Bundles/Windows/998cc68724adc13f736546f6dc6fdf7b.bundle

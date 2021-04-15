@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 2548606399
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3948ea9aa2c8123c0ceb214820986cfa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 22357172b8cea85847937e8f62d0c077
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/HeZi.mat
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/YangQiPingRed.mat
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/XieGui.mat
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/BingXiangRed.mat
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/MieHuoQiWaiTaoRed.mat
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/ShaDaiZhiJiaRed.mat
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/DaJiQiRed.mat
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/YouTongYello.mat
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/YangQiPingGreen.mat
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/YouHu.mat
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/DaJiQiBlue.mat
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/ShaDaiZhiJiaYello.mat
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/YouTongRed.mat
+- Assets/Res/Scene/Arena/Mod/OWMod/Tex/Materials/BingXiangBlack.mat
+Dependencies:
+- D:/GITHUB/ETLearn_V5.0_Copy/Unity/Bundles/Android/7ae1d9e400c7e9d8762aa8e18513448d.bundle

@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 3716816649
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0474f662478ac291f6a277e4b9397d62
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c9e5f9332925a0d343018787fc4be837
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 502d8cafd6a5a0447ab1db9a24cdcb10, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Bundles/Prefab/OtherCube.prefab
+Dependencies:
+- D:/GITHUB/ETLearn_V5.0_Copy/Unity/Bundles/Android/56e6a3b06d7556cef6c5af3ad036f8c9.bundle
+- D:/GITHUB/ETLearn_V5.0_Copy/Unity/Bundles/Android/a7e89be1be8700386611499932cec327.bundle

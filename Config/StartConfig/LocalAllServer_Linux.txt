@@ -1,0 +1,1 @@
+{ "_t" : "StartConfig", "_id" : NumberLong("98547768819754"), "C" : [{ "_t" : "OuterConfig", "Address" : "172.17.0.10:10003", "Address2" : "172.17.0.10:10003" }, { "_t" : "InnerConfig", "Address" : "127.0.0.1:20003" }, { "_t" : "DBConfig", "ConnectionString" : "mongodb://127.0.0.1:27017", "DBName" : "MyGameDB" }], "AppId" : 1, "AppType" : "AllServer", "ServerIP" : "*" }

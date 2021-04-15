@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2790180174
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 02eea12164dc3ceb1818dc71f158d8c1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 22357172b8cea85847937e8f62d0c077
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/bulletFX/bulletMat/bullet/bullet_line_additive.mat
+Dependencies:
+- D:/GITHUB/ETLearn_V5.0/Unity/Bundles/Windows/6b5910b858e133efa4c981cac107a8e5.bundle

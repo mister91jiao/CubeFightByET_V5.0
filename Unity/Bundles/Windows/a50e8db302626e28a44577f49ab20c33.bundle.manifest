@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1179128707
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c03c9acbf9ad6220cda12859e807e7f1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f4d58da2e394c3ac790f4c422276af4f
+HashAppended: 0
+ClassTypes:
+- Class: 134
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/PhysicMaterial/NoFrictional.physicMaterial
+Dependencies: []

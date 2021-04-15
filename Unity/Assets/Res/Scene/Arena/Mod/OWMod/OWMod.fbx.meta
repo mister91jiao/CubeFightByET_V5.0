@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 1a55b3959046e624c94657802c7513e9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BingXiang
+    100002: DaJiQi
+    100004: DianNaoYi
+    100006: DianZi
+    100008: HeZi
+    100010: HuaKuang
+    100012: MieHuoQi
+    100014: MieHuoQiWaiTao
+    100016: //RootNode
+    100018: ShaDai
+    100020: ShaDaiZhiJia
+    100022: XianShiPing
+    100024: XieGui
+    100026: YangQiPing
+    100028: YouHu
+    100030: YouTong
+    400000: BingXiang
+    400002: DaJiQi
+    400004: DianNaoYi
+    400006: DianZi
+    400008: HeZi
+    400010: HuaKuang
+    400012: MieHuoQi
+    400014: MieHuoQiWaiTao
+    400016: //RootNode
+    400018: ShaDai
+    400020: ShaDaiZhiJia
+    400022: XianShiPing
+    400024: XieGui
+    400026: YangQiPing
+    400028: YouHu
+    400030: YouTong
+    2100000: 'Material #28'
+    2100002: 'Material #15'
+    2100004: 'Material #14'
+    2100006: 'Material #13'
+    2100008: 'Material #12'
+    2100010: 'Material #27'
+    2100012: 'Material #24'
+    2100014: 'Material #40'
+    2100016: 'Material #23'
+    2100018: 'Material #11'
+    2100020: 'Material #25'
+    2100022: 'Material #10'
+    2100024: 'Material #26'
+    2300000: BingXiang
+    2300002: DaJiQi
+    2300004: DianNaoYi
+    2300006: DianZi
+    2300008: HeZi
+    2300010: HuaKuang
+    2300012: MieHuoQi
+    2300014: MieHuoQiWaiTao
+    2300016: ShaDai
+    2300018: ShaDaiZhiJia
+    2300020: XianShiPing
+    2300022: XieGui
+    2300024: YangQiPing
+    2300026: YouHu
+    2300028: YouTong
+    3300000: BingXiang
+    3300002: DaJiQi
+    3300004: DianNaoYi
+    3300006: DianZi
+    3300008: HeZi
+    3300010: HuaKuang
+    3300012: MieHuoQi
+    3300014: MieHuoQiWaiTao
+    3300016: ShaDai
+    3300018: ShaDaiZhiJia
+    3300020: XianShiPing
+    3300022: XieGui
+    3300024: YangQiPing
+    3300026: YouHu
+    3300028: YouTong
+    4300000: BingXiang
+    4300002: XieGui
+    4300004: DaJiQi
+    4300006: HeZi
+    4300008: ShaDaiZhiJia
+    4300010: ShaDai
+    4300012: YouTong
+    4300014: YangQiPing
+    4300016: DianNaoYi
+    4300018: MieHuoQiWaiTao
+    4300020: MieHuoQi
+    4300022: DianZi
+    4300024: HuaKuang
+    4300026: XianShiPing
+    4300028: YouHu
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
