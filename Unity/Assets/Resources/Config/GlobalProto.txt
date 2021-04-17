@@ -1,1 +1,1 @@
-{"AssetBundleServerUrl":"https://www.mister91jiao.com/HotfixFile/","Address":"121.4.57.160:10003"}
+{"AssetBundleServerUrl":"http://192.168.0.1:8080/","Address":"127.0.0.1:10003"}
