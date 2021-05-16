@@ -1,5 +1,5 @@
 Demo 介绍：
-此demo用于我的毕业设计作品，基于ET框架编写，包含服务端和客户端。
+此demo是一个状态同步的测试，基于ET框架编写，包含服务端和客户端。
 
 ET框架链接：https://github.com/egametang/ET
 
